@@ -11,6 +11,10 @@ fun main() {
    println("$name is ${age +age1} years old") */
    println(mutablelist())
 
+   val typeinfex =  Typeinfex()
+
+   println("inference number ${typeinfex.inferednumbers}")
+   println("expilictnumber   ${typeinfex.expilictnumber}")
 
 
 }
