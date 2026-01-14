@@ -8,13 +8,17 @@ fun main() {
    age1 = 23
    val name = "mary"
 
-   println("$name is ${age +age1} years old") */
-   println(mutablelist())
-
-   val typeinfex =  Typeinfex()
+    val typeinfex =  Typeinfex()
 
    println("inference number ${typeinfex.inferednumbers}")
    println("expilictnumber   ${typeinfex.expilictnumber}")
+
+   println(mutablelist())
+
+   println("$name is ${age +age1} years old") */
+
+
+  println(Mixlisttype())
 
 
 }
