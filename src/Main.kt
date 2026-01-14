@@ -15,10 +15,15 @@ fun main() {
 
    println(mutablelist())
 
+   println(Mixlisttype())
+
+
    println("$name is ${age +age1} years old") */
 
 
-  println(Mixlisttype())
+
+  println(analyzeShoppingList())
+
 
 
 }
