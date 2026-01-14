@@ -9,7 +9,7 @@ fun main() {
    val name = "mary"
 
    println("$name is ${age +age1} years old") */
-   println(basiclist())
+   println(mutablelist())
 
 
 
