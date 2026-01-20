@@ -2,6 +2,7 @@
 
 import Consoleinput.coninp
 import list.*
+import nullsafe.nullexp
 
 fun main() {
   /* val age = 21
@@ -49,7 +50,9 @@ fun main() {
     topStudents.forEach { println(it.Name) }
     */
 
-    coninp()
+    //coninp()
+
+    nullexp()
 
 
 }
