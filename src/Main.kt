@@ -63,7 +63,9 @@ fun main() {
 
     //ElivsOp()
 
-    MapNotNull()
+    //MapNotNull()
+
+    FilterNotNull()
 
 
 
