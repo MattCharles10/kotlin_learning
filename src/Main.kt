@@ -3,7 +3,7 @@
 import Consoleinput.coninp
 import list.*
 import nullsafe.comparisonExample
-import nullsafe.nullexp
+import nullsafe.*;
 
 fun main() {
   /* val age = 21
@@ -55,7 +55,9 @@ fun main() {
 
     //nullexp()
 
-    comparisonExample( )
+    //comparisonExample( )
+
+    howItWorks()
 
 
 
