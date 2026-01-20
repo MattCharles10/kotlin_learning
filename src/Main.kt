@@ -59,7 +59,11 @@ fun main() {
 
     //howItWorks()
 
-    getUserAge( )
+    //getUserAge( )
+
+    //ElivsOp()
+
+    MapNotNull()
 
 
 
