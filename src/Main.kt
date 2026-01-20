@@ -2,6 +2,7 @@
 
 import Consoleinput.coninp
 import list.*
+import nullsafe.comparisonExample
 import nullsafe.nullexp
 
 fun main() {
@@ -52,7 +53,11 @@ fun main() {
 
     //coninp()
 
-    nullexp()
+    //nullexp()
+
+    comparisonExample( )
+
+
 
 
 }
