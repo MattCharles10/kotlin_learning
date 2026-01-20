@@ -65,9 +65,9 @@ fun main() {
 
     //MapNotNull()
 
-    FilterNotNull()
+    //FilterNotNull()
 
-
+    safeCalculator()
 
 
 }
