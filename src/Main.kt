@@ -1,5 +1,6 @@
 
 
+import Consoleinput.coninp
 import list.*
 
 fun main() {
@@ -19,9 +20,8 @@ fun main() {
 
    println(analyzeShoppingList())
 
-   println("$name is ${age +age1} years old") */
-
-  val student = mutableListOf(
+   println("$name is ${age +age1} years old")
+   val student = mutableListOf(
       Student("mathew ", 34),
       Student("charles",45),
       Student("elakiya" , 45),
@@ -29,7 +29,7 @@ fun main() {
 
   )
 
-  //list all students
+    //list all students
   println("All students")
   student.forEach { println("${it.Name}: ${it.grade}") }
 
@@ -47,4 +47,10 @@ fun main() {
     val topStudents = student.filter { it.grade > 85 }
     println("\nTop students (grade > 85):")
     topStudents.forEach { println(it.Name) }
+    */
+
+    coninp()
+
+
 }
+
