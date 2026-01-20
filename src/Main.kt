@@ -57,7 +57,9 @@ fun main() {
 
     //comparisonExample( )
 
-    howItWorks()
+    //howItWorks()
+
+    getUserAge( )
 
 
 
