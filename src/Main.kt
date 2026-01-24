@@ -1,5 +1,6 @@
 
 
+import ClassSample.Sample
 import Consoleinput.coninp
 import interview.Ques1
 import list.*
@@ -31,6 +32,16 @@ fun main() {
       Student("ram", 97)
 
   )
+
+  var name = "intern"
+
+    when(name){
+
+        "intern" -> println("interview")
+        "sun"  -> println("sun")
+        "rock" -> println("io")
+
+    }
 
     //list all students
   println("All students")
@@ -69,17 +80,12 @@ fun main() {
     //FilterNotNull()
 
     //safeCalculator()
-    var name = "intern"
 
-    when(name){
+  val obj1 = Sample.A()
+  obj1.print()
 
-        "intern" -> println("interview")
-        "sun"  -> println("sun")
-        "rock" -> println("io")
-
-    }
-
-
+  val obj2 = Sample.B()
+  obj2.print()
 
 
 }
