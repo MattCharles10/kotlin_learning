@@ -1,6 +1,7 @@
 
 
 import Consoleinput.coninp
+import interview.Ques1
 import list.*
 import nullsafe.comparisonExample
 import nullsafe.*;
@@ -67,7 +68,18 @@ fun main() {
 
     //FilterNotNull()
 
-    safeCalculator()
+    //safeCalculator()
+    var name = "intern"
+
+    when(name){
+
+        "intern" -> println("interview")
+        "sun"  -> println("sun")
+        "rock" -> println("io")
+
+    }
+
+
 
 
 }

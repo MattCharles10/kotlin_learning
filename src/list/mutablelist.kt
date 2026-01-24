@@ -11,3 +11,17 @@ fun mutablelist ( ){
     println("$temperatures and the count of temperature are ${temperatures.count()}")
 
 }
+
+fun mu(){
+
+    val tem1 = mutableListOf<Int>(12 , 23 , 34 , 56 , 67)
+
+    tem1.add(79)
+    tem1.add(89)
+
+    tem1.remove(tem1[0])
+    println("$tem1 and the count of temperature are ${tem1.count()}")
+
+
+
+}
