@@ -48,6 +48,14 @@ fun main() {
   println("All students")
   student.forEach { println("${it.Name}: ${it.grade}") }
 
+  val obj1 = Sample.A()
+  obj1.print()
+
+  val obj2 = Sample.B()
+  obj2.print()
+
+
+
   // Find highest grade
 
   val higestgrade = student.maxByOrNull { it.grade }
@@ -81,12 +89,6 @@ fun main() {
     //FilterNotNull()
 
     //safeCalculator()
-
-  val obj1 = Sample.A()
-  obj1.print()
-
-  val obj2 = Sample.B()
-  obj2.print()
 
     Interpolation()
 
