@@ -13,7 +13,11 @@ fun Interpolation(){
     val s5 = s3 + s4
     val s6 = s4.plus(s1)
 
+    val s7 = StringBuilder()
+
+    s7.append(s5).append(s3)
+
     println("$s5")
-    println("$s6")
+    println("$s7")
 
 }
