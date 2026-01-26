@@ -6,6 +6,7 @@ import interview.Ques1
 import list.*
 import nullsafe.comparisonExample
 import nullsafe.*;
+import String.*;
 
 fun main() {
   /* val age = 21
@@ -87,6 +88,7 @@ fun main() {
   val obj2 = Sample.B()
   obj2.print()
 
+    Interpolation()
 
 }
 
