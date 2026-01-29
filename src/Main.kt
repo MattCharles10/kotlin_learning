@@ -55,6 +55,15 @@ fun main() {
   val obj2 = Sample.B()
   obj2.print()
 
+  al input = "input"
+
+    val result =  swapReverse(input)
+
+    println(result)
+
+
+    CheckContent()
+
 
 
   // Find highest grade
@@ -77,7 +86,7 @@ fun main() {
 
     //nullexp()
 
-    sb()
+    //sb()
 
     //comparisonExample( )
 
@@ -89,14 +98,7 @@ fun main() {
 
     //MapNotNull()
 
-    val input = "input"
-
-    val result =  swapReverse(input)
-
-    println(result)
-
-
-    CheckContent()
+    substring()
 
     //FilterNotNull()
 
