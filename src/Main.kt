@@ -91,11 +91,12 @@ fun main() {
 
     val input = "input"
 
-    val result =  Ques3(input)
+    val result =  swapReverse(input)
 
     println(result)
 
 
+    CheckContent()
 
     //FilterNotNull()
 
