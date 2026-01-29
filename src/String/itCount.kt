@@ -7,11 +7,11 @@ fun itCount(){
     var count = 0
 
     for(ch in str){
-        if(ch !=  ' '){
+        if( ch !=  ' ' ){
             count++
         }
     }
 
-    println("the count of the String  $count")
+    println("the count of the String $count")
 
 }

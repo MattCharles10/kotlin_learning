@@ -110,7 +110,9 @@ fun main() {
 
     //StrTemp()
 
-    itCount()
+    //itCount()
+
+    index()
 
 }
 
