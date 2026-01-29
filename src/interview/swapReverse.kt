@@ -1,16 +1,22 @@
 package interview
 
-import java.io.DataInput
 
 fun swapReverse(input: String) : String{
 
-    val charArray  = input.toCharArray()
+    val charArray = input.toCharArray()
 
-    val rev = StringBuilder()
+    var start = 0
+    var end = charArray.size - 1
 
-    for(i in charArray.size-1 downTo 0){
-        rev.append(charArray[i])
+    while (start < end){
+
+        val temp = charArray[start]
+        charArray[start] = charArray[end]
+        charArray[end] = temp
+
+        start++
+        end--
+
     }
-
-    return rev.toString()
+    return  String(charArray)
 }
