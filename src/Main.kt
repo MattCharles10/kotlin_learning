@@ -112,7 +112,9 @@ fun main() {
 
     //itCount()
 
-    index()
+    //index()
+
+    countvow()
 
 }
 
