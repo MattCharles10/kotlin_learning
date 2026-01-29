@@ -3,11 +3,11 @@ package interview
 fun Ques3(input : String) : String{
 
 
-   /* val name = "Mathew"
-    val rev = name.reversed()
-                                ---------------- > Built-in reversed() Function
-    println("Original $name")
-    println("Reversed  $rev")*/
+    /* val name = "Mathew"
+     val rev = name.reversed()
+                                 ---------------- > Built-in reversed() Function
+     println("Original $name")
+     println("Reversed  $rev")*/
 
     //manualReverse
 
@@ -17,6 +17,6 @@ fun Ques3(input : String) : String{
     for( i in charArray.size-1 downTo 0){
         rev = rev + charArray[i]
     }
-   return rev
+    return rev
 
 }

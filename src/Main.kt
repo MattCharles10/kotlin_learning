@@ -106,7 +106,11 @@ fun main() {
 
     //Interpolation()
 
-    itReplace()
+    //itReplace()
+
+    //StrTemp()
+
+    itCount()
 
 }
 
