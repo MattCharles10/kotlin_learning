@@ -7,6 +7,7 @@ import list.*
 import nullsafe.comparisonExample
 import nullsafe.*;
 import String.*;
+import interview.*
 
 fun main() {
   /* val age = 21
@@ -86,11 +87,13 @@ fun main() {
 
     //MapNotNull()
 
+    Ques3()
+
     //FilterNotNull()
 
     //safeCalculator()
 
-    Interpolation()
+    //Interpolation()
 
 }
 
