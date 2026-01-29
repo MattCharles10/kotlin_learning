@@ -87,7 +87,13 @@ fun main() {
 
     //MapNotNull()
 
-    Ques3()
+    val input = "input"
+
+    val result =  Ques3(input)
+
+    println(result)
+
+
 
     //FilterNotNull()
 
