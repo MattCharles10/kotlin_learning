@@ -98,13 +98,15 @@ fun main() {
 
     //MapNotNull()
 
-    substring()
+    //substring()
 
     //FilterNotNull()
 
     //safeCalculator()
 
     //Interpolation()
+
+    itReplace()
 
 }
 
