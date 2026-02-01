@@ -7,6 +7,7 @@ import list.*
 import nullsafe.comparisonExample
 import nullsafe.*;
 import String.*;
+import String.isPalindromechecker.isPalindromeManual
 import interview.*
 
 fun main() {
@@ -84,10 +85,12 @@ fun main() {
 
     */
 
-    val checker = isPalindromechecker()
 
-    println(checker.isPaindro("madam"))
-    println(checker.isPalindromeManual("madam"))
+    //println(isPalindromeManual("madam"))
+
+    val remo1 = removeSpace()
+
+    println(remo1.removeit())
 
 
 
