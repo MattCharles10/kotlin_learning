@@ -90,7 +90,7 @@ fun main() {
 
     val remo1 = removeSpace()
 
-    println(remo1.removeit())
+    println(remo1.removeit("matt and ela is sster and brother"))
 
 
 
