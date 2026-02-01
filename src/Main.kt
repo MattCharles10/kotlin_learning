@@ -80,43 +80,16 @@ fun main() {
     val topStudents = student.filter { it.grade > 85 }
     println("\nTop students (grade > 85):")
     topStudents.forEach { println(it.Name) }
+    //coninp()//nullexp()//sb()//comparisonExample( )//howItWorks() //getUserAge( ) //ElivsOp()//MapNotNull()//substring()//FilterNotNull()//safeCalculator()//Interpolation()//itReplace()//StrTemp()//itCount()//isPalindrome( )//index()// countvow()
+
     */
 
-    //coninp()
+    val checker = isPalindromechecker()
 
-    //nullexp()
+    println(checker.isPaindro("madam"))
+    println(checker.isPalindromeManual("madam"))
 
-    //sb()
 
-    //comparisonExample( )
-
-    //howItWorks()
-
-    //getUserAge( )
-
-    //ElivsOp()
-
-    //MapNotNull()
-
-    //substring()
-
-    //FilterNotNull()
-
-    //safeCalculator()
-
-    //Interpolation()
-
-    //itReplace()
-
-    //StrTemp()
-
-    //itCount()
-
-    isPalindrome( )
-
-    //index()
-
-   // countvow()
 
 }
 
