@@ -1,10 +1,22 @@
 package String
 
-class isPalindromechecker {
+object isPalindromechecker {
 
     fun isPaindro(Str : String ) : Boolean{
 
         return Str == Str.reversed()
+    }
+
+    fun isPalindriomeCasesensentive(Str: String) : Boolean{
+        val cleanstr = Str.lowercase()
+        return cleanstr == cleanstr.reversed()
+    }
+
+    fun  isPalindromeWithSpaces(Str: String) : Boolean{
+        val cleanstr = Str.filter {
+            !it.isWhitespace()
+        }
+        return cleanstr == cleanstr.reversed()
     }
 
     fun isPalindromeManual(Str: String) : Boolean{
