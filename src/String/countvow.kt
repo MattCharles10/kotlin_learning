@@ -12,3 +12,4 @@ fun countvow(){
     }
     println("Vowels count: $count")
 }
+

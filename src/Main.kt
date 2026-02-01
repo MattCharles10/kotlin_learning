@@ -112,9 +112,11 @@ fun main() {
 
     //itCount()
 
+    isPalindrome( )
+
     //index()
 
-    countvow()
+   // countvow()
 
 }
 
