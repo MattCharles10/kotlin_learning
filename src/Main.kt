@@ -1,5 +1,6 @@
 
 
+import Arrays.secondlargestkt
 import ClassSample.Sample
 import Consoleinput.coninp
 import interview.Ques1
@@ -88,9 +89,15 @@ fun main() {
 
     //println(isPalindromeManual("madam"))
 
-    val remo1 = removeSpace()
+   // val remo1 = removeSpace()
 
-    println(remo1.removeit("matt and ela is sster and brother"))
+   // println(remo1.removeit("matt and ela is sster and brother"))
+
+    val obj = secondlargestkt()
+
+    var Str = intArrayOf(12, 34, 56, 67, 82)
+
+    println(obj.SecArr(Str))
 
 
 
