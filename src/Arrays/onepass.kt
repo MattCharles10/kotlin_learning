@@ -16,6 +16,9 @@ class onepass {
         }
         return secondlargest
 
+        /*Time Complexity: O(n), as we are traversing the array only once.
+          Auxiliary space: O(1) */
+
 
 
     }
