@@ -18,7 +18,7 @@ class removeSpace {
 
         // using replace in built functiion
 
-        val nospace = input.replace(" " , "")
+        val nospace = input.replace("\\s".toRegex(), "")  // (" " , "")
 
         return nospace
 
