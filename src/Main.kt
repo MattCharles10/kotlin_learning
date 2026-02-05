@@ -1,6 +1,7 @@
 
 
 import Arrays.Twopasskt
+import Arrays.onepass
 import Arrays.secondlargestkt
 import ClassSample.Sample
 import Consoleinput.coninp
@@ -97,11 +98,11 @@ fun main() {
 
     */
 
-    val  OBJ = Twopasskt()
+    val  OBJ = onepass()
 
     var arr = intArrayOf(12,34,56,67,82)
 
-    println(OBJ.SecArrkt(arr))
+    println(OBJ.SecArrr(arr))
 
 
     //println(isPalindromeManual("madam"))
