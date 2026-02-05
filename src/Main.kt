@@ -1,5 +1,6 @@
 
 
+import Arrays.Twopasskt
 import Arrays.secondlargestkt
 import ClassSample.Sample
 import Consoleinput.coninp
@@ -84,20 +85,28 @@ fun main() {
     topStudents.forEach { println(it.Name) }
     //coninp()//nullexp()//sb()//comparisonExample( )//howItWorks() //getUserAge( ) //ElivsOp()//MapNotNull()//substring()//FilterNotNull()//safeCalculator()//Interpolation()//itReplace()//StrTemp()//itCount()//isPalindrome( )//index()// countvow()
 
-    */
-
-
-    //println(isPalindromeManual("madam"))
-
-   // val remo1 = removeSpace()
+     // val remo1 = removeSpace()
 
    // println(remo1.removeit("matt and ela is sster and brother"))
 
-    val obj = secondlargestkt()
+   // val obj = secondlargestkt()
 
     var Str = intArrayOf(12, 34, 56, 67, 82)
 
     println(obj.SecArr(Str))
+
+    */
+
+    val  OBJ = Twopasskt()
+
+    var arr = intArrayOf(12,34,56,67,82)
+
+    println(OBJ.SecArrkt(arr))
+
+
+    //println(isPalindromeManual("madam"))
+
+
 
 
 
