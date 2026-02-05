@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.javamom;
 
 import java.util.Arrays;
 

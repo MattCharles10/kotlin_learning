@@ -1,4 +1,4 @@
-package Arrays
+package Arrays.kotlinbaby
 
 class onepass {
     fun SecArrr(arr : IntArray) : Int{

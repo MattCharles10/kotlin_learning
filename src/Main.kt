@@ -1,8 +1,8 @@
 
 
-import Arrays.Twopasskt
-import Arrays.onepass
-import Arrays.secondlargestkt
+import Arrays.kotlinbaby.Twopasskt
+import Arrays.kotlinbaby.onepass
+import Arrays.kotlinbaby.secondlargestkt
 import ClassSample.Sample
 import Consoleinput.coninp
 import interview.Ques1
@@ -13,7 +13,7 @@ import String.*;
 import String.isPalindromechecker.isPalindromeManual
 import interview.*
 
-fun main() {
+fun main(args : Array<String>) {
   /* val age = 21
    val age1 : Int
    age1 = 23
@@ -98,14 +98,15 @@ fun main() {
 
     */
 
-    val  OBJ = onepass()
+    val obj = GfG()
 
-    var arr = intArrayOf(12,34,56,67,82)
+    val int = intArrayOf(1, 2, 0, 4, 3, 0, 5, 0)
 
-    println(OBJ.SecArrr(arr))
+    GfG.pushzeroS(int)
 
-
-    //println(isPalindromeManual("madam"))
+    for (num in int) {
+        print("$num ")
+    }
 
 
 
