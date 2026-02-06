@@ -5,6 +5,7 @@ import Arrays.kotlinbaby.Twopasskt
 import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
 import Arrays.kotlinbaby.twotraversal
+import Arrays.onetraversal
 import ClassSample.Sample
 import Consoleinput.coninp
 import interview.Ques1
@@ -101,11 +102,11 @@ fun main(args : Array<String>) {
 
     */
 
-    val obj = twotraversal()
+    val obj = onetraversal()
 
     val int = intArrayOf(1, 2, 0, 4, 3, 0, 5, 0)
 
-    println(obj.pushnozeros(int))
+    println(obj.pushyzero(int))
 
     for (num in int) {
         print("$num ")

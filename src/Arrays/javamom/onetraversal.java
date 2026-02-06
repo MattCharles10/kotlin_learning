@@ -41,3 +41,7 @@ public class onetraversal {
         }
     }
 }
+
+
+/*Time Complexity: O(n), as we are traversing the array only once.
+Auxiliary Space: O(1)*/
