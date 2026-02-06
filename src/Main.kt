@@ -5,7 +5,8 @@ import Arrays.kotlinbaby.Twopasskt
 import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
 import Arrays.kotlinbaby.twotraversal
-import Arrays.onetraversal
+import Arrays.kotlinbaby.onetraversal
+import Arrays.kotlinbaby.twopointers
 import ClassSample.Sample
 import Consoleinput.coninp
 import interview.Ques1
@@ -102,16 +103,15 @@ fun main(args : Array<String>) {
 
     */
 
-    val obj = onetraversal()
+    val obj = twopointers()
 
-    val int = intArrayOf(1, 2, 0, 4, 3, 0, 5, 0)
+    var arr = intArrayOf(12,423,45,435,345,456)
 
-    println(obj.pushyzero(int))
+    println(obj.reverse(arr))
 
-    for (num in int) {
-        print("$num ")
+    for (num in arr){
+        print("$num   " )
     }
-
 
 
 
