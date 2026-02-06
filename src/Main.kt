@@ -4,6 +4,7 @@ import Arrays.kotlinbaby.GfG
 import Arrays.kotlinbaby.Twopasskt
 import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
+import Arrays.kotlinbaby.twotraversal
 import ClassSample.Sample
 import Consoleinput.coninp
 import interview.Ques1
@@ -100,11 +101,11 @@ fun main(args : Array<String>) {
 
     */
 
-    val obj = GfG()
+    val obj = twotraversal()
 
     val int = intArrayOf(1, 2, 0, 4, 3, 0, 5, 0)
 
-    GfG.pushzeroS(int)
+    println(obj.pushnozeros(int))
 
     for (num in int) {
         print("$num ")
