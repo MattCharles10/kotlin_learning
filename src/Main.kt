@@ -109,21 +109,9 @@ fun main() {
     val arr = intArrayOf(12, 423, 45, 435, 345, 456)
     val d = 2
 
-    println("=== ARRAY ROTATION ===")
-    println("Original array:")
-    for (num in arr) {
-        print("$num   ")
-    }
-    println()
-
-    // Call the rotation method
+    println("BEFORE: ${arr.joinToString("   ")}")
     obj.rotateArr(arr, d)
-
-    println("\nAfter rotating by $d positions:")
-    for (num in arr) {
-        print("$num   ")
-    }
-    println("\n======================")
+    println("AFTER:  ${arr.joinToString("   ")}")
 
 
 

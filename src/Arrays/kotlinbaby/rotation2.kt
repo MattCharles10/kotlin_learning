@@ -18,19 +18,15 @@ class rotation2 {
 
     private fun rev(arr : IntArray , start : Int , end: Int){
 
-        while (start < end){
+        var i = start
+        var j = end
 
-            var i = start
-            var j =end
-
-            var temp = arr[start]
-            arr[start] = arr[end]
-            arr[end] = temp
-
+        while (i < j) {
+            val temp = arr[i]
+            arr[i] = arr[j]
+            arr[j] = temp
             i++
             j--
-
-
         }
     }
 
