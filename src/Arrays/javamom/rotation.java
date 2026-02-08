@@ -45,3 +45,7 @@ public class rotation {
     }
 }
 
+/*WRONG: while (start < end) ← checks immutable parameters (never changes)
+
+RIGHT: while (i < j) or while (left < right) ← checks mutable variables (changes each loop)*/
+
