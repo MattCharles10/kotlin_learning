@@ -6,6 +6,7 @@ import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
 import Arrays.kotlinbaby.twotraversal
 import Arrays.kotlinbaby.onetraversal
+import Arrays.kotlinbaby.rotation2
 import Arrays.kotlinbaby.twopointers
 import ClassSample.Sample
 import Consoleinput.coninp
@@ -18,7 +19,8 @@ import String.isPalindromechecker.isPalindromeManual
 import interview.*
 
 
-fun main(args : Array<String>) {
+
+fun main() {
   /* val age = 21
    val age1 : Int
    age1 = 23
@@ -102,16 +104,28 @@ fun main(args : Array<String>) {
     println(obj.SecArr(Str))
 
     */
+    val obj = rotation2()
 
-    val obj = twopointers()
+    val arr = intArrayOf(12, 423, 45, 435, 345, 456)
+    val d = 2
 
-    var arr = intArrayOf(12,423,45,435,345,456)
-
-    println(obj.reverse(arr))
-
-    for (num in arr){
-        print("$num   " )
+    println("=== ARRAY ROTATION ===")
+    println("Original array:")
+    for (num in arr) {
+        print("$num   ")
     }
+    println()
+
+    // Call the rotation method
+    obj.rotateArr(arr, d)
+
+    println("\nAfter rotating by $d positions:")
+    for (num in arr) {
+        print("$num   ")
+    }
+    println("\n======================")
+
+
 
 
 
