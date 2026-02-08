@@ -2,6 +2,8 @@ package Arrays.kotlinbaby
 
 class rotation2 {
 
+
+
     fun rotateArr(arr : IntArray ,  d : Int){
         val n = arr.size
 
