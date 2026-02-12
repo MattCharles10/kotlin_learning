@@ -1,6 +1,7 @@
 
 
 import Arrays.kotlinbaby.GfG
+import Arrays.kotlinbaby.GfG2
 import Arrays.kotlinbaby.Twopasskt
 import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
@@ -103,8 +104,7 @@ fun main() {
 
     println(obj.SecArr(Str))
 
-    */
-    val obj = rotation2()
+     val obj = rotation2()
 
     val arr = intArrayOf(12, 423, 45, 435, 345, 456)
     val d = 2
@@ -113,6 +113,13 @@ fun main() {
     obj.rotateArr(arr, d)
     println("AFTER:  ${arr.joinToString("   ")}")
 
+    */
+
+    val obj = GfG2()
+
+    val arr = intArrayOf(12,453, 45 , 456 , 456)
+
+    obj.findele(arr)
 
 
 
