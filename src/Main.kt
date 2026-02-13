@@ -2,6 +2,7 @@
 
 import Arrays.kotlinbaby.GfG
 import Arrays.kotlinbaby.GfG2
+import Arrays.kotlinbaby.MajorityElementkt
 import Arrays.kotlinbaby.Twopasskt
 import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
@@ -113,14 +114,25 @@ fun main() {
     obj.rotateArr(arr, d)
     println("AFTER:  ${arr.joinToString("   ")}")
 
+      val obj = GfG2()
+
+      val arr = intArrayOf(12,453, 45 , 456 , 456)
+
+      obj.findele(arr)
+
     */
 
-    val obj = GfG2()
 
-    val arr = intArrayOf(12,453, 45 , 456 , 456)
+    val obj = MajorityElementkt()
 
-    obj.findele(arr)
+    var arr = intArrayOf(2, 2, 3, 1, 3, 2, 1, 1)
 
+    val result = obj.MajorityEle(arr)
+
+    for(output in result){
+
+        print(" $output")
+    }
 
 
 
