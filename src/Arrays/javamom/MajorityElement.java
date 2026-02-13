@@ -51,6 +51,14 @@ public class MajorityElement {
 
         }
 
+        /*Since at most 2 elements can appear more than n/3 times:
+
+               If exactly 2 elements exist
+
+               And they are out of order
+
+               Swap them */
+
         Collections.sort(res);
         return res;
 
