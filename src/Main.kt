@@ -1,5 +1,6 @@
 
 
+import Arrays.kotlinbaby.GFG3
 import Arrays.kotlinbaby.GfG
 import Arrays.kotlinbaby.GfG2
 import Arrays.kotlinbaby.MajorityElementkt
@@ -120,10 +121,7 @@ fun main() {
 
       obj.findele(arr)
 
-    */
-
-
-    val obj = MajorityElementkt()
+      val obj = MajorityElementkt()
 
     var arr = intArrayOf(2, 2, 3, 1, 3, 2, 1, 1)
 
@@ -133,6 +131,19 @@ fun main() {
 
         print(" $output")
     }
+
+
+    */
+
+    val obj = GFG3()
+
+    val k = 2
+
+    val arr = intArrayOf(1, 5, 8, 10)
+
+    val ans = obj.getMinDiff(arr , k)
+
+    println(ans)
 
 
 
