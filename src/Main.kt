@@ -5,6 +5,7 @@ import Arrays.kotlinbaby.GfG
 import Arrays.kotlinbaby.GfG2
 import Arrays.kotlinbaby.MajorityElementkt
 import Arrays.kotlinbaby.Twopasskt
+import Arrays.kotlinbaby.maxProduct
 import Arrays.kotlinbaby.onepass
 import Arrays.kotlinbaby.secondlargestkt
 import Arrays.kotlinbaby.twotraversal
@@ -135,15 +136,12 @@ fun main() {
 
     */
 
-    val obj = GFG3()
 
-    val k = 2
 
-    val arr = intArrayOf(1, 5, 8, 10)
 
-    val ans = obj.getMinDiff(arr , k)
-
-    println(ans)
+    val nums = intArrayOf(2, 3, -2, 4)
+    val result = maxProduct(nums)
+    println("Maximum product: $result")
 
 
 
