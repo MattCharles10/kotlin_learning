@@ -1,4 +1,4 @@
-# 🚀 Kotlin Self-Learning Journey
+# 🚀 Kotlin  Self-Learning Journey
 
 Welcome to my **Kotlin self-learning journey**!  
 This repository documents my progress as I learn Kotlin — including concepts, code snippets, mini exercises, and hands-on practice.
@@ -20,6 +20,25 @@ I chose **Kotlin** because it is a modern, concise, and developer-friendly progr
 - 🌍 **Versatile** – Used for Android, backend (Ktor, Spring), multiplatform, and scripting
 
 Kotlin strikes a strong balance between **power, safety, and developer happiness**, making it an excellent language to invest in long-term.
+
+---
+## 💻 Java Learning Alongside Kotlin
+
+Along with Kotlin, I am also strengthening my **Java fundamentals** by solving **Data Structures and Algorithms (DSA)** problems in both **Java and Kotlin**.
+
+### 🔹 Why learn Java with DSA?
+
+- 🧠 Builds strong problem-solving skills  
+- 📚 Deepens understanding of core programming concepts  
+- 🔄 Helps compare Java and Kotlin implementations  
+- 🚀 Improves coding efficiency and interview preparation  
+
+### 🔹 What I gain by practicing DSA in both languages
+
+- Understand syntax differences clearly  
+- Compare performance and readability  
+- Strengthen logic-building skills  
+- Master core programming concepts from two perspectives  
 
 ---
 ## 🔄 Difference Between Java and Kotlin
