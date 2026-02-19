@@ -139,9 +139,11 @@ fun main() {
 
 
 
-    val nums = intArrayOf(2, 3, -2, 4)
-    val result = maxProduct(nums)
-    println("Maximum product: $result")
+    println(myAtoii("42"))            // 42
+    println(myAtoii("   -042"))       // -42
+    println(myAtoii("1337c0d3"))      // 1337
+    println(myAtoii("0-1"))           // 0
+    println(myAtoii("words and 987")) // 0
 
 
 
