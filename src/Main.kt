@@ -20,6 +20,7 @@ import nullsafe.comparisonExample
 import nullsafe.*;
 import String.*;
 import String.isPalindromechecker.isPalindromeManual
+import com.sun.jndi.toolkit.dir.DirSearch.search
 import interview.*
 
 
@@ -139,10 +140,6 @@ fun main() {
     println(myAtoii("0-1"))           // 0
     println(myAtoii("words and 987")) // 0
 
-    */
-
-
-    val obj = NonRepkt()
 
     val input = "geeksforgeeks"
     val result = obj.firstNonRepeatingChar(input)
@@ -151,6 +148,9 @@ fun main() {
         println("First non-repeating character: $result")
     else
         println("No non-repeating character found")
+
+
+    */
 
 
 
