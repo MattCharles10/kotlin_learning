@@ -141,15 +141,16 @@ fun main() {
 
     */
 
-    val obj = StrAnagramskt()
 
-    val s1 = "geeks"
-    val s2 = "kseeg"
+    val obj = NonRepkt()
 
-    if (obj.areAnagrams(s1, s2))
-        println("true")
+    val input = "geeksforgeeks"
+    val result = obj.firstNonRepeatingChar(input)
+
+    if (result != null)
+        println("First non-repeating character: $result")
     else
-        println("false")
+        println("No non-repeating character found")
 
 
 
