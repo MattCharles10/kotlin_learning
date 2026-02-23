@@ -133,17 +133,25 @@ fun main() {
         print(" $output")
     }
 
-
-    */
-
-
-
-
     println(myAtoii("42"))            // 42
     println(myAtoii("   -042"))       // -42
     println(myAtoii("1337c0d3"))      // 1337
     println(myAtoii("0-1"))           // 0
     println(myAtoii("words and 987")) // 0
+
+    */
+
+    val obj = StrAnagramskt()
+
+    val s1 = "geeks"
+    val s2 = "kseeg"
+
+    if (obj.areAnagrams(s1, s2))
+        println("true")
+    else
+        println("false")
+
+
 
 
 
