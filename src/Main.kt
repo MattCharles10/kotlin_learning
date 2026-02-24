@@ -14,6 +14,7 @@ import Arrays.kotlinbaby.rotation2
 import Arrays.kotlinbaby.twopointers
 import ClassSample.Sample
 import Consoleinput.coninp
+import Sort.GFG
 import interview.Ques1
 import list.*
 import nullsafe.comparisonExample
@@ -152,7 +153,15 @@ fun main() {
 
     */
 
+    val obj = GFG()
 
+    val arr = intArrayOf(0, 1, 2, 0, 1, 2)
+    val n = arr.size
+
+    // sort the array in-place
+    obj.sort012(arr)
+
+    for (i in 0..<n) print(arr[i].toString() + " ")
 
 
 
