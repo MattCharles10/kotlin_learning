@@ -1,0 +1,13 @@
+6. What is the difference between safe calls(?.) and null check(!!)?
+Safe call operator i.e. ?. is used to check if the value of the variable is null or not. If it is null then null will be returned otherwise it will return the desired value.
+
+var name: String? = "Mathew Charles"
+println(name?.length) // 8
+name = null
+println(name?.length) // null
+If you want to throw NullPointerException when the value of the variable is null, then you can use the null check or !! operator.
+
+var name: String? = "Mathew Charles"
+println(name?.length) // 8
+name = null
+println(name!!.length) // KotlinNullPointerException
