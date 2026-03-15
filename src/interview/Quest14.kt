@@ -31,7 +31,7 @@ class Quest14 {
             }
         }
 
-        reversArr(arr, pivote + 1, n - 1)
+        reverseArr(arr, pivote + 1, n - 1)
 
     }
 
@@ -43,7 +43,7 @@ class Quest14 {
         arr[j] = temp
     }
 
-    private fun reversArr(arr: IntArray, start: Int, end: Int) {
+    private fun reverseArr(arr: IntArray, start: Int, end: Int) {
 
         var s = start
 
