@@ -16,4 +16,28 @@ class Qest19 {
         return  max
     }
 
+    // Count Vowels in String a String (Without lowerCase() or in)
+
+    fun countVowels(str : String ) : Int {
+
+        var count = 0
+
+        val vowels = "aeiouAEIOU"
+
+        for(i in 0 until return str.length){
+            val c = str[i]
+            for(v in vowels){
+                if(c == v){
+                    count++
+                    break
+                }
+            }
+        }
+        return count
+    }
+
+   /* fun main(){
+        println(countVowels("kotlin"))
+    } */
+
 }
