@@ -75,7 +75,7 @@ public class KMpAlgo {
             else {
 
                 // Use lps value of previous index
-                // to avoid redundant comparisons
+                // to  avoid redundant comparisons
                 if (j != 0)
                     j = lps[j - 1];
                 else
