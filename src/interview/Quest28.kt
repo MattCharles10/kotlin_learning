@@ -25,7 +25,8 @@ class Quest28 {
 
         val n = arr.size ;
 
-        var seccro  =  -1
+
+        var seccro  = Int.MIN_VALUE    //If your array contains all negative numbers, initializing -1 may fail. Better to use Int.MIN_VALUE. MIN_VALUE
         var larro   =  -1
 
         for(i in 1 until  n){
