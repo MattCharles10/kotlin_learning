@@ -67,4 +67,22 @@ class Ques4 {
         return count
     }
 
+    fun MaxARR(arr : IntArray) : Pair<Int , Int>{
+
+        val n = arr.size
+
+        var max = arr[0]
+        var min = arr[0]
+
+        for(i in 1 until n){
+            if(arr[i] > max){
+                max = arr[i]
+            }
+            else if (arr[i] < min){
+                min = arr[i]
+            }
+        }
+        return Pair(min, max)
+    }
+
 }
