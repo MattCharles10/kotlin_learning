@@ -150,10 +150,7 @@ fun main() {
     else
         println("No non-repeating character found")
 
-
-    */
-
-    val obj = GFG()
+        val obj = GFG()
 
     val arr = intArrayOf(0, 1, 2, 0, 1, 2)
     val n = arr.size
@@ -162,6 +159,16 @@ fun main() {
     obj.sort012(arr)
 
     for (i in 0..<n) print(arr[i].toString() + " ")
+
+
+
+    */
+
+    val obj = Ques4()
+
+    obj.FuzzBuzz(15)
+
+    //println()
 
 
 
