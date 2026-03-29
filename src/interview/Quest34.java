@@ -2,7 +2,7 @@ package interview;
 
 public class Quest34 {
 
-    static  void rotateArr(int arr [] , int d){
+    static  int[] rotateArr(int arr [] , int d){
 
         int n = arr.length ;
 
@@ -15,6 +15,8 @@ public class Quest34 {
         reverrr(arr , d , n-1);
 
         reverrr(arr , 0 , n-1);
+
+        return arr ;
 
     }
 
